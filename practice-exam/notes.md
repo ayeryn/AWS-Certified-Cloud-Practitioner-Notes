@@ -22,28 +22,26 @@
     - Not just for security
 
 - Amazon CloudTrail
-    <details markdown=1><summary markdown='span'>Answer</summary>
-    API calls, who did what, who to blame
-    </details>
+    - API calls, who did what, who to blame
 
 - AWS Artifact
-    <details markdown=1><summary markdown='span'>Answer</summary>
-    No cost, self-service portal for on-demand access to __compliance reports__ and for entering into select online __agreements__.
-    </details>
+    - No cost, self-service portal for on-demand access to __compliance reports__ and for entering into select online __agreements__.
  
  - AWS EMR 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-    
     - Big data
-
     - serverless
-    </details>
 
 - Shared Controls – Controls which apply to both the infrastructure layer and customer layers, but in completely separate contexts or perspectives. In a shared control, AWS provides the requirements for the infrastructure and the customer must provide their own control implementation within their use of AWS services. Examples include:    
 
-    - __Patch Management__ – AWS is responsible for patching and fixing flaws within the infrastructure, but customers are responsible for patching their guest OS and applications.
-    - __Configuration Management__ – AWS maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications.
-    - __Awareness & Training__ - AWS trains AWS employees, but a customer must train their own employees.
+    - __Patch Management__
+        - AWS: for patching and fixing flaws within the infrastructure
+        - customers: patching their guest OS and applications.
+    - __Configuration Management__ 
+        – AWS: the configuration of its infrastructure devices
+        - customer: configuring their own guest OS, databases, and applications.
+    - __Awareness & Training__ 
+        - AWS: trains AWS employees
+        - customer: must train their own employees.
     - Responsibilities vary depending on the services used
 
 - Security Groups v NACL
@@ -51,6 +49,12 @@
         - ALLOW only
     - NACL: firewall at the **subnect** level
         - ALLOW or DENY
+
+- GuardDuty: threat detection
+    - uses ML to analyze logs
+        - CloudTrial logs
+        - VPC Flow logs
+        - DNS logs  
 
 - AWS Health Dashboard
     - Detailed __troubleshooting__ guidance to address AWS events impacting your resources.
@@ -65,6 +69,7 @@
     - A durable storage system
     - static website
     - media data store for the CloudFront service  
+    - Nine Elevens durability
 
 - S3 Tiers
     - S3 Standard - General purpose storage for any type of data, typically used for __frequently accessed__ data
@@ -95,7 +100,7 @@
     - database with high read/write activity
     - Amazon EBS volumes
         - These are storage volumes that you attach to Amazon EC2 instances. After you attach a volume to an instance, you can use it in the same way you would use a local hard drive attached to a computer, for example to store files or to install applications.
-        - Amazon EBS snapshots — These are point-in-time backups of Amazon EBS volumes that persist independently from the volume itself. You can create snapshots to back up the data on your Amazon EBS volumes. You can then restore new volumes from those snapshots at any time.
+    - Amazon EBS snapshots — These are point-in-time backups of Amazon EBS volumes that persist independently from the volume itself. You can create snapshots to back up the data on your Amazon EBS volumes. You can then restore new volumes from those snapshots at any time.
     
 - AWS RDS
 	- Automated patches and backups
@@ -161,9 +166,10 @@
 
 - What AWS service has built-in DDoS mitigation?
     - You can use AWS services that operate from _edge locations_   
-        - Amazon CloudFront (CDN)
+        - Amazon CloudFront (CDN) - AWS Shield Standard
+        - Amazon Route 53 (DNS) - AWS Shield Standard
         - AWS Global Accelerator: a network layer service in which you create accelerators to improve the security, availability, and performance of your applications for local and global users.
-        - Amazon Route 53 (DNS)
+        
 
 
 - Aurora: built-in fault tolerance and automated failover capability
