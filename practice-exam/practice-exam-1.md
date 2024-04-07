@@ -6,26 +6,6 @@ If this practice exam has been helpful to you please share it with others and re
 
 ---
 
-1. AWS allows users to manage their resources using a web based user interface. What is the name of this interface?
-    - A. AWS CLI.
-    - B. AWS API.
-    - C. AWS SDK.
-    - D. AWS Management Console.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-2. Which of the following is an example of horizontal scaling in the AWS Cloud?
-    - A. Replacing an existing EC2 instance with a larger, more powerful one.
-    - B. Increasing the compute capacity of a single EC2 instance to address the growing demands of an application.
-    - C. Adding more RAM capacity to an EC2 instance.
-    - D. Adding more EC2 instances of the same size to handle an increase in traffic.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
 3. You have noticed that several critical Amazon EC2 instances have been terminated. Which of the following AWS services would help you determine who took this action?
     - A. Amazon Inspector.
     - B. AWS CloudTrail.
@@ -55,16 +35,6 @@ If this practice exam has been helpful to you please share it with others and re
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
-    </details>
-
-6. You have set up consolidated billing for several AWS accounts. One of the accounts has purchased a number of reserved instances for 3 years. Which of the following is true regarding this scenario?
-    - A. The Reserved Instance discounts can only be shared with the master account.
-    - B. All accounts can receive the hourly cost benefit of the Reserved Instances.
-    - C. The purchased instances will have better performance than On-demand instances.
-    - D. There are no cost benefits from using consolidated billing; It is for informational purposes only.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
     </details>
 
 7. A company has developed an eCommerce web application in AWS. What should they do to ensure that the application has the highest level of availability?
