@@ -1,11 +1,5 @@
 # Practice Exam 2
 
-Click on the **Answer** button for the correct answer and its explanation.
-
-If this practice exam has been helpful to you please share it with others and react to this below.
-
----
-
 1. A global company with a large number of AWS accounts is seeking a way in which they can centrally manage billing and security policies across all accounts. Which AWS Service will assist them in meeting these goals?
     - A. AWS Organizations.
     - B. AWS Trusted Advisor.
