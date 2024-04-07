@@ -1,73 +1,6 @@
 # Practice Exam 3
 
-Click on the **Answer** button for the correct answer and its explanation.
-
-If this practice exam has been helpful to you please share it with others and react to this below.
-
----
-
-1. Where can you store files in AWS? (Choose TWO)
-    - A. Amazon EFS.
-    - B. Amazon SNS.
-    - C. Amazon EBS.
-    - D. Amazon ECS.
-    - E. Amazon EMR.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
-    </details>
-
-2. Which AWS service can be used to store and reliably deliver messages across distributed systems?
-    - A. Amazon Simple Queue Service.
-    - B. AWS Storage Gateway.
-    - C. Amazon Simple Email Service.
-    - D. Amazon Simple Storage Service.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-3. Which of the following describes the payment model that AWS makes available for customers that can commit to using Amazon EC2 over a one or 3-year term to reduce their total computing costs?
-    - A. Pay less as AWS grows.
-    - B. Pay as you go.
-    - C. Pay less by using more.
-    - D. Save when you reserve.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-4. A company is migrating its on-premises database to Amazon RDS. What should the company do to ensure Amazon RDS costs are kept to a minimum?
-    - A. Right-size before and after migration.
-    - B. Use a Multi-Region Active-Passive architecture.
-    - C. Combine On-demand Capacity Reservations with Saving Plans.
-    - D. Use a Multi-Region Active-Active architecture.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-5. What is the primary storage service used by Amazon RDS database instances?
-    - A. Amazon Glacier.
-    - B. Amazon EBS.
-    - C. Amazon EFS.
-    - D. Amazon S3.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-6. A company is developing a new application using a microservices framework. The new application is having performance and latency issues. Which AWS Service should be used to troubleshoot these issues?
-    - A. AWS CodePipeline.
-    - B. AWS X-Ray.
-    - C. Amazon Inspector.
-    - D. AWS CloudTrail.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-7. Which of the following AWS services is designed with native Multi-AZ fault tolerance in mind? (Choose TWO)
+1. Which of the following AWS services is designed with native Multi-AZ fault tolerance in mind? (Choose TWO)
     - A. Amazon Redshift.
     - B. AWS Snowball.
     - C. Amazon Simple Storage Service.
@@ -89,16 +22,6 @@ If this practice exam has been helpful to you please share it with others and re
       Correct answer: B, D
     </details>
 
-9. Sarah has deployed an application in the Northern California (us-west-1) region. After examining the application’s traffic, she notices that about 30% of the traffic is coming from Asia. What can she do to reduce latency for the users in Asia?
-    - A. Replicate the current resources across multiple Availability Zones within the same region.
-    - B. Migrate the application to a hosting provider in Asia.
-    - C. Recreate the website content.
-    - D. Create a CDN using CloudFront, so that content is cached at Edge Locations close to and in Asia.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
 10. An organization runs many systems and uses many AWS products. Which of the following services enables them to control how each developer interacts with these products?
     - A. AWS Identity and Access Management.
     - B. Amazon RDS.
@@ -107,16 +30,6 @@ If this practice exam has been helpful to you please share it with others and re
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
-    </details>
-
-11. Using Amazon EC2 falls under which of the following cloud computing models?
-    - A. Iaas & SaaS.
-    - B. IaaS.
-    - C. SaaS.
-    - D. PaaS.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
     </details>
 
 12. Which of the below is a best-practice when building applications on AWS?
@@ -139,26 +52,6 @@ If this practice exam has been helpful to you please share it with others and re
       Correct answer: D
     </details>
 
-14. Amazon Glacier is an Amazon S3 storage class that is suitable for storing [...] & [...]. (Choose TWO)
-    - A. Active archives.
-    - B. Dynamic websites’ assets.
-    - C. Long-term analytic data.
-    - D. Active databases.
-    - E. Cached data.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
-    </details>
-
-15. What does Amazon Elastic Beanstalk provide?
-    - A. A PaaS solution to automate application deployment.
-    - B. A compute engine for Amazon ECS.
-    - C. A scalable file storage solution for use with AWS and on-premises servers.
-    - D. A NoSQL database service.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
 
 16. What is the AWS service that performs automated network assessments of Amazon EC2 instances to check for vulnerabilities?
     - A. Amazon Kinesis.
@@ -179,16 +72,6 @@ If this practice exam has been helpful to you please share it with others and re
 
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D, E
-    </details>
-
-18. A company needs to host a database in Amazon RDS for at least three years. Which of the following options would be the most cost-effective solution?
-    - A. Reserved instances     - No Upfront.
-    - B. Reserved instances     - Partial Upfront.
-    - C. On-Demand instances.
-    - D. Spot Instances.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
     </details>
 
 19. Your application has recently experienced significant global growth, and international users are complaining of high latency. What is the AWS characteristic that can help improve your international users’ experience?
@@ -366,160 +249,3 @@ If this practice exam has been helpful to you please share it with others and re
     <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, C
     </details>
-
-36. What is the connectivity option that uses Internet Protocol Security (IPSec) to establish encrypted connectivity between an on-premises network and the AWS Cloud?
-    - A. Internet Gateway.
-    - B. AWS IQ.
-    - C. AWS Direct Connect.
-    - D. AWS Site-to-Site VPN.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-37. What is the minimum level of AWS support that provides 24x7 access to technical support engineers via phone and chat?
-    - A. Enterprise Support.
-    - B. Developer Support.
-    - C. Basic Support.
-    - D. Business Support.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-38. Which of the following is used to control network traffic in AWS? (Choose TWO)
-    - A. Network Access Control Lists (NACLs).
-    - B. Key Pairs.
-    - C. Access Keys.
-    - D. IAM Policies.
-    - E. Security Groups.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, E
-    </details>
-
-39. A company has developed a media transcoding application in AWS. The application is designed to recover quickly from hardware failures. Which one of the following types of instance would be the most cost-effective choice to use?
-    - A. Reserved instances.
-    - B. Spot Instances.
-    - C. On-Demand instances.
-    - D. Dedicated instances.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-40. Which AWS Service provides the current status of all AWS Services in all AWS Regions?
-    - A. AWS Service Health Dashboard.
-    - B. AWS Management Console.
-    - C. Amazon CloudWatch.
-    - D. AWS Personal Health Dashboard.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-41. Which AWS service or feature can be used to call AWS Services from different programming languages?
-    - A. AWS Software Development Kit.
-    - B. AWS Command Line Interface.
-    - C. AWS CodeDeploy.
-    - D. AWS Management Console.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-42. Which AWS Service can be used to register a new domain name?
-    - A. Amazon Personalize.
-    - B. Amazon Route 53.
-    - C. AWS KMS.
-    - D. AWS Config.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-43. App development companies move their business to AWS to reduce time-to-market and improve customer satisfaction, what are the AWS automation tools that help them deploy their applications faster? (Choose TWO)
-    - A. AWS CloudFormation.
-    - B. AWS Migration Hub.
-    - C. AWS IAM.
-    - D. AWS Elastic Beanstalk.
-    - E. Amazon Macie.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, D
-    </details>
-
-44. Which AWS service provides cost-optimization recommendations?
-    - A. AWS Trusted Advisor.
-    - B. AWS Pricing Calculator.
-    - C. Amazon QuickSight.
-    - D. AWS X-Ray.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-45. A company has hundreds of VPCs in multiple AWS Regions worldwide. What service does AWS offer to simplify the connection management among the VPCs?
-    - A. VPC Peering.
-    - B. AWS Transit Gateway.
-    - C. Amazon Connect.
-    - D. Security Groups.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-46. What is one benefit and one drawback of buying a reserved EC2 instance? (Select TWO)
-    - A. Instances can be shut down by AWS at any time with no notification.
-    - B. Reserved instances require at least a one-year pricing commitment.
-    - C. There is no additional charge for using dedicated instances.
-    - D. Reserved instances provide a significant discount compared to on-demand instances.
-    - E.Reserved instances are best suited for periodic workloads.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, D
-    </details>
-
-47. Why does every AWS Region contain multiple Availability Zones?
-    - A. Multiple Availability Zones allows you to build resilient and highly available architectures.
-    - B. Multiple Availability Zones results in lower total cost compared to deploying in a single Availability Zone.
-    - C. Multiple Availability Zones allows for data replication and global reach.
-    - D. Multiple Availability Zones within a region increases the storage capacity available in that region.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-48. What is the most cost-effective purchasing option for running a set of EC2 instances that must always be available for a period of two months?
-    - A. On-Demand Instances.
-    - B. Spot Instances.
-    - C. Reserved Instances     - All Upfront.
-    - D. Reserved Instances     - No Upfront.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
-    </details>
-
-49. Which of the following is a benefit of running an application in multiple Availability Zones?
-    - A. Allows you to exceed AWS service limits.
-    - B. Reduces application response time between servers and global users.
-    - C. Increases available compute capacity.
-    - D. Increases the availability of your application.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
-    </details>
-
-50. Data security is one of the top priorities of AWS. How does AWS deal with old storage devices that have reached the end of their useful life?
-    - A. AWS sells the old devices to other hosting providers.
-    - B. AWS destroys the old devices in accordance with industry-standard practices.
-    - C. AWS sends the old devices for remanufacturing.
-    - D. AWS stores the old devices in a secure place.
-
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
-    </details>
-
-Please feel free to comment below if any information is inaccurate or if any answers need correction.
-
-[<img align="center" src="../images/list.png" height="30" width="30"/> Exam List](../practice-exam/exams.md)
